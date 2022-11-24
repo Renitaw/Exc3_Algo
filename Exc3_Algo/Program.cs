@@ -14,8 +14,14 @@ namespace Exc3_Algo
         public Node next;
     }
 
-    internal class Program
+    class CircularList
     {
+        Node LAST;
+        public CircularList()
+        {
+            LAST = null;
+        }
+
         static void Main(string[] args)
         {
         }
