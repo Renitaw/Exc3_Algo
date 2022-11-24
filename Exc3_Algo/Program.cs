@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Exc3_Algo
 {
+    class Node
+    {
+        /*creates Nodes for the circular nexted list*/
+        public int rollNumber;
+        public string name;
+        public Node next;
+    }
 
     internal class Program
     {
